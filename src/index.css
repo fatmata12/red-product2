@@ -23,11 +23,13 @@ a:hover {
 }
 
 body {
-  margin: 0;
+    margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: white;   /* 👈 écritures en blanc */
+  background-color: #000; /* optionnel si tu veux fond noir */
 }
 
 h1 {
