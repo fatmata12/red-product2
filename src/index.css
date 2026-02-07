@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.sidebar a {
+ a {
    color: white;
   text-decoration: none; /* optionnel pour enlever le souligné */
 }
