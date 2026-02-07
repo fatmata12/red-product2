@@ -12,7 +12,8 @@ function Hotels() {
 
         <div className="hotels-header">
           <h2>Hôtels <span>8</span></h2>
-          <button>+ Créer un nouveau hôtel</button>
+          <button>
+            + Créer un nouveau hôtel</button>
         </div>
 
         <div className="hotel-grid">
