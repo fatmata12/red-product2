@@ -15,7 +15,7 @@
 
  a {
    color: white;
-  text-decoration: none; /* optionnel pour enlever le souligné */
+  text-decoration: none; 
 }
 .sidebar a:hover {
   color: white;

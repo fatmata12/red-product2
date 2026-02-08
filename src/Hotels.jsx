@@ -3,6 +3,7 @@ import Topbar from "./Topbar"
 import hotels from "./Data"
 
 function Hotels() {
+  const navigate = useNavigate() ;
   return (
     <div className="dashboard">
       <Sidebar />
@@ -13,7 +14,8 @@ function Hotels() {
         <div className="hotels-header">
           <h2>Hôtels <span>8</span></h2>
           <button>
-            + Créer un nouveau hôtel</button>
+            + Créer un nouveau hôtel
+            </button>
         </div>
 
         <div className="hotel-grid">
@@ -31,4 +33,4 @@ function Hotels() {
   )
 }
 
-export default Hotels
+export default Hotels;
