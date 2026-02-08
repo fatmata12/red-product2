@@ -2,7 +2,6 @@ import { Routes, Route, Navigate } from "react-router-dom"
 import Login from "./Login"
 import Dashboard from "./Dashboard"
 import Hotels from "./Hotels"
-import CreateHotel from "./pages/CreateHotel"; 
 
 function App() {
   const isAuth = localStorage.getItem("auth")
