@@ -3,6 +3,7 @@ import Login from "./Login"
 import Dashboard from "./Dashboard"
 import Hotels from "./Hotels"
 
+
 function App() {
   const isAuth = localStorage.getItem("auth")
 
