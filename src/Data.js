@@ -57,4 +57,4 @@ const hotels = [
   }
 ]
 
-export default hotels
+export default hotels;
