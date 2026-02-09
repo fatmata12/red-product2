@@ -1,28 +1,16 @@
-import { Routes, Route, Navigate } from "react-router-dom"
-import Login from "./Login"
-import Dashboard from "./Dashboard"
-import Hotels from "./Hotels"
-
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "./pages/Dashboard";
+import ListeHotels from "./pages/ListeHotels";
 
 function App() {
-  const isAuth = localStorage.getItem("auth")
-
   return (
-    <Routes>
-      <Route path="/" element={<Login />} />
-      
-
-      <Route
-        path="/dashboard"
-        element={isAuth ? <Dashboard /> : <Navigate to="/" />}
-      />
-
-      <Route
-        path="/hotels"
-        element={isAuth ? <ListeHotels /> : <Navigate to="/" />}
-      />
-    </Routes>
-  )
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/hotels" element={<ListeHotels />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
