@@ -19,7 +19,7 @@ function App() {
 
       <Route
         path="/hotels"
-        element={isAuth ? <Hotels /> : <Navigate to="/" />}
+        element={isAuth ? <ListeHotels /> : <Navigate to="/" />}
       />
     </Routes>
   )
