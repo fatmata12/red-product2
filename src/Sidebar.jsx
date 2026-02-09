@@ -10,7 +10,8 @@ function Sidebar() {
           <Link to="/dashboard">Dashboard</Link>
         </li>
         <li>
-          <Link to="/hotels">Liste des hôtels</Link>
+          <h1>Liste des hôtels</h1>
+
         </li>
       </ul>
 
